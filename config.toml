@@ -1,4 +1,3 @@
-baseURL = "http://sudosaket.com/"
+baseURL = "https://sudosaket.com/"
 languageCode = "en-us"
 title = "Saket Mehta"
-theme = "after-dark"
