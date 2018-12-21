@@ -1,0 +1,57 @@
+baseURL      = "https://sudosaket.com/"
+languageCode = "en-us"
+title        = "Saket Mehta"
+
+theme = "hermit"
+
+pygmentsCodefences = true
+pygmentsUseClasses = true
+
+# Shorthand emojis in content files - https://gohugo.io/functions/emojify/
+enableEmoji = true
+
+# This message is only used by the RSS template.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+[author]
+  name = "Saket Mehta"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "02-01-2006"
+  dateformNumTime = "02-01-2006 15:04 +0530"
+
+  homeSubtitle    = "Ready Player Gone."
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  justifyContent  = false  # Set "text-align: justify" to .content, requires extended version of Hugo
+  # bgImg = ""  #  Homepage background-image URL
+
+  # Social Icons
+  # Check https://github.com/Track3/hermit#social-icons for more info.
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/sudosaket"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/sudosaket"
+
+  [[params.social]]
+    name = "instagram"
+    url  = "https://instagram.com/saketmehta"
+
+[menu]
+
+  [[menu.main]]
+    name   = "Posts"
+    url    = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    name   = "About"
+    url    = "/about/"
+    weight = 20
