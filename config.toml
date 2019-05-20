@@ -9,14 +9,14 @@ theme = "hugo-journal"
   homepage = "https://sudosaket.com/"
 
 [params]
-  description = "Blog meta description."
-  githubUsername = "your_gh_username"
-  twitterUsername = "your_twitter_handle"
-  tagline = "Blog tagline. Shown under index title."
+  description = "A blog about software and tech, mostly."
+  githubUsername = "sudosaket"
+  twitterUsername = "sudosaket"
+  tagline = "A blog about software and tech, mostly."
 [params.work]
-  jobTitle = "occupation"
-  company = "the company"
-  companyUrl = "https://the.company.url/"
+  jobTitle = "Software Engineer"
+  company = "AppDynamics"
+  companyUrl = "https://www.appdynamics.com/"
 [params.gpg]
   key = "0x1111111111111111"
   fingerprint = "0000 0000 0000 0000 0000  0000 0000 0000 0000 0000"
