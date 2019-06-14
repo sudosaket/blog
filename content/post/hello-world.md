@@ -1,5 +1,5 @@
 ---
-title: "Hello, world!s"
+title: "Hello, world!"
 date: 2019-06-14T15:04:42+05:30
 draft: false
 ---
